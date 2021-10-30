@@ -10,7 +10,7 @@ class CalcLogicTest {
 	void test() {
 		System.out.println("テストを開始します。");
 		CalcLogic logic = new CalcLogic();
-		int expect = 2;
+		int expect = 9;
 		int result = logic.addNum(1, 1);
 		assertEquals(result, expect);
 	}
